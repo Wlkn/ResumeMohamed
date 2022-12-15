@@ -12,7 +12,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/back.jpg';
+import heroImage from '../images/header.jpg';
 // import porfolioImage1 from '../images/portfolio/counterapp.jpg';
 // import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 // import porfolioImage2 from '../images/portfolio/quiz.jpg';
@@ -177,7 +177,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Javascript Quiz',
     description: 'A Javascript Quiz that uses an external API.',
     url: 'https://wlkn.github.io/Quiz_Javascript',
-    image: porfolioImage4
+    image: porfolioImage4,
   },
   {
     title: 'Time Calculator',
@@ -191,7 +191,6 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://wlkn.github.io/Javascript-CounterApp',
     image: porfolioImage6,
   },
- 
 ];
 
 /**
