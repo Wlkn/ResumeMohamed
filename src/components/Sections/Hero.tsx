@@ -20,6 +20,7 @@ const Hero: FC = memo(() => {
           layout="fill"
           objectFit="cover"
           priority
+          quality={100}
           src={imageSrc}
           width='100%'
           
