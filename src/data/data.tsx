@@ -12,7 +12,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header.jpg';
+import heroImage from '../images/back.jpg';
 // import porfolioImage1 from '../images/portfolio/counterapp.jpg';
 // import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 // import porfolioImage2 from '../images/portfolio/quiz.jpg';
@@ -25,7 +25,7 @@ import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 // import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 // import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
-import testimonialImage from '../images/testimonial.webp';
+import testimonialImage from '../images/testimonial1.jpg';
 import {
   About,
   ContactSection,
