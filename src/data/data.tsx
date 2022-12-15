@@ -13,7 +13,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import calculator from '../images/portfolio/calculator.jpg';
 import counterapp from '../images/portfolio/counterapp.jpg';
-import personalwebsite from '../images/portfolio/personalwebsite.png';
+// import personalwebsite from '../images/portfolio/personalwebsite.png';
 import quiz from '../images/portfolio/quiz.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonialWall.jpg';
@@ -187,12 +187,12 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://wlkn.github.io/Javascript-CounterApp',
     image: counterapp,
   },
-  {
-    title: 'Personal Website',
-    description: `This website was made with React. I'll use this as a blog and a portfolio in the future.`,
-    url: 'https://wlkn.vercel.app',
-    image: personalwebsite,
-  },
+  // {
+  //   title: 'Personal Website',
+  //   description: `This website was made with React. I'll use this as a blog and a portfolio in the future.`,
+  //   url: 'https://wlkn.vercel.app',
+  //   image: personalwebsite,
+  // },
 ];
 
 /**
