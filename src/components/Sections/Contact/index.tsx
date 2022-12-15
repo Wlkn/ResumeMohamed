@@ -29,16 +29,14 @@ const Contact: FC = memo(() => {
     <Section className="bg-neutral-800" sectionId={SectionId.Contact}>
       <div className="flex flex-col gap-y-6">
         <div className="flex flex-col gap-6 md:flex-row md:items-center">
-          <MailIcon className="hidden h-16 w-16 text-white md:block" />
-          <h2 className="text-2xl font-bold text-white">{headerText}</h2>
+          {/* <MailIcon className="hidden h-16 w-16 text-white md:block" /> */}
+          {/* <h2 className="text-2xl font-bold text-white">{headerText}</h2> */}
         </div>
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-          <div className="order-2 col-span-1 md:order-1 ">
-            <ContactForm />
-          </div>
-          <div className="order-1 col-span-1 flex flex-col gap-y-4 md:order-2">
-            <p className="prose leading-6 text-neutral-300">{description}</p>
-            <dl className="flex flex-col space-y-4 text-base text-neutral-500 sm:space-y-2">
+        <div className="flex w-full items-center justify-center bg-cover bg-center px-4 py-16 md:py-3 lg:px-8 bg-fixed">
+          <div className="order-2 col-span-1 md:order-1 ">{/* <ContactForm /> */}</div>
+          <div className=" flex flex-col gap-y-4 md:order-2">
+            <p className=" leading-6 text-neutral-300">{description}</p>
+            <dl className="flex items-center flex-col space-y-2 text-base text-neutral-500 sm:space-y-2">
               {items.map(({type, text, href}) => {
                 const {Icon, srLabel} = ContactValueMap[type];
                 return (
@@ -47,7 +45,7 @@ const Contact: FC = memo(() => {
                     <dd className="flex items-center">
                       <a
                         className={classNames(
-                          '-m-2 flex rounded-md p-2 text-neutral-300 hover:text-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500',
+                          '-m-2 flex rounded-md p-2 text-neutral-300 hover:text-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500',
                           {'hover:text-white': href},
                         )}
                         href={href}
