@@ -15,7 +15,7 @@ const nextConfig = {
 
     return config;
   },
-  compress: true,
+  compress: false,
   generateEtags: true,
   pageExtensions: ['tsx', 'mdx', 'ts'],
   poweredByHeader: false,
