@@ -11,9 +11,10 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+import calculator from '../images/portfolio/calculator.jpg';
+import counterapp from '../images/portfolio/counterapp.jpg';
+import personalwebsite from '../images/portfolio/personalwebsite.png';
+import quiz from '../images/portfolio/quiz.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonialWall.jpg';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
@@ -167,21 +168,30 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Javascript Quiz',
-    description: 'A Javascript Quiz that uses an external API.',
+    description:
+      'A site that is also made with Javascript but this time it uses an external API, you have to answer different questions in a time limit of 20 seconds. The site will tell you if you had the right or wrong answer to the question and a score will be displayed at the end.',
     url: 'https://wlkn.github.io/Quiz_Javascript',
-    image: porfolioImage4,
+    image: quiz,
   },
   {
     title: 'Time Calculator',
-    description: 'A Calculator that can also calculate with time, made with React.',
+    description: `This site is a calculator that can do mathematical calculations with time. React and JavaScript were used.
+    `,
     url: 'https://wlkn.github.io/Time-Calculator-App',
-    image: porfolioImage5,
+    image: calculator,
   },
   {
     title: 'Tally-Ho Counter',
-    description: 'A Javascript Counter that can count with jumps of 1 to 100.',
+    description:
+      'A simple website made with Javascript, Html, CSS. The purpose of this site was to replicate an application on iPhone. This required an effort at the CSS level which was therefore a very good project to start.',
     url: 'https://wlkn.github.io/Javascript-CounterApp',
-    image: porfolioImage6,
+    image: counterapp,
+  },
+  {
+    title: 'Personal Website',
+    description: `This website was made with React. I'll use this as a blog and a portfolio in the future.`,
+    url: 'https://wlkn.vercel.app',
+    image: personalwebsite,
   },
 ];
 
