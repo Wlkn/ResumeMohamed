@@ -15,7 +15,7 @@ import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import profilepic from '../images/profilepic.jpg';
-import testimonialImage from '../images/testimonialwall.jpg';
+import testimonialImage from '../images/testimonialWall.jpg';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/winterpic.jpg';
 import {
@@ -75,7 +75,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'https://drive.google.com/file/d/125G05Y8Sq9fuZRT8Pc2wZuLyUjJzoc5B/view?usp=sharing',
+      href: 'https://drive.google.com/file/d/1-2r3ETWOJPw47tlTVbKCNhMnTKRKYKAs/view?usp=sharing',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
