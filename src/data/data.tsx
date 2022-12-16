@@ -13,8 +13,8 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import calculator from '../images/portfolio/calculator.jpg';
 import counterapp from '../images/portfolio/counterapp.jpg';
+import quiz from '../images/portfolio/quizfixed.png';
 // import personalwebsite from '../images/portfolio/personalwebsite.png';
-import quiz from '../images/portfolio/quiz.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonialWall.jpg';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
@@ -76,7 +76,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'https://drive.google.com/file/d/1-2r3ETWOJPw47tlTVbKCNhMnTKRKYKAs/view?usp=sharing',
+      href: 'https://drive.google.com/file/d/1cNO3fygHgQ_31m9ucX8rGPaQnZEIkZ7b/view?usp=sharing',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
