@@ -240,14 +240,9 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'Coming..',
-      text: 'Coming..',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
-    },
-    {
-      name: 'Coming soon..',
-      text: ' ',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      name: 'Fares Bessrour ' + '\u00B7' + ' Senior Developer',
+      text: 'If you are looking for a hard working with an unmatched analytical mindset software developer, this is your guy. There is no task too hard for Mohamed Ali, he will not rest until he understands and finds solutions to get any project going. Very underrated by Professionals in the Development space but the Communication and social skills of Mohamed Ali makes it great working with him, these skills are a must for any team centered projects.',
+      image: 'https://i.postimg.cc/QxfhhrmN/faresbg.jpg',
     },
   ],
 };
