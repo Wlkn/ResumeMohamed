@@ -68,7 +68,7 @@ export const heroData: Hero = {
         I'm a Montreal based <strong className="text-stone-100">Front End </strong>Developer.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me looking at new <strong className="text-stone-100">technologies</strong>,
+        In my free time, you can catch me looking at new <strong className="text-stone-100">technologies</strong>,
         and trying to learn some of them, or just having fun with
         <strong className="text-stone-100"> Friends!</strong>
       </p>
