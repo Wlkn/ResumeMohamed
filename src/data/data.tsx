@@ -61,16 +61,16 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Mohamed Ali.`,
+  name: `Hi! I'm Mohamed Ali.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Montreal based <strong className="text-stone-100">Front End </strong>Developer.
+        I am  a Montréal based <strong className="text-stone-100">Full Stack </strong>Developer.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time, you can catch me looking at new <strong className="text-stone-100">technologies</strong>,
-        and trying to learn some of them, or just having fun with
-        <strong className="text-stone-100"> Friends!</strong>
+        As a <strong className="text-stone-100">full stack developer</strong> I am eager to learn and grow in my career.
+        My passion for creating <strong className="text-stone-100">functional and visually appealing websites</strong>{' '}
+        drives me to continuously improve my skills and take on new challenges.
       </p>
     </>
   ),
@@ -94,7 +94,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Hi! I'm Mohamed, a front end freelancer that finds fun in making web pages and in always learning new things.`,
+  description: `Hi there! My name is Mohamed Ali Bachar and I am an 18-year-old full stack developer based in Montréal. While I may not have a strong foundation in all areas of development yet, I am a fast learner and am eager to continue learning and growing as a developer. I am particularly interested in expanding my skills in new technologies and am always on the lookout for opportunities to learn and improve. Thank you for visiting my site. If you have any questions or would like to discuss my experience and goals as a developer, please don't hesitate to reach out.`,
   aboutItems: [
     {label: 'Location', text: 'Montréal, QC', Icon: MapIcon},
     {label: 'Age', text: '18', Icon: CalendarIcon},
@@ -118,11 +118,11 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'English',
-        level: 9,
+        level: 9.5,
       },
       {
         name: 'Arabic',
-        level: 3,
+        level: 4.5,
       },
     ],
   },
@@ -131,15 +131,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'JavaScript',
-        level: 6,
+        level: 7,
       },
       {
         name: 'React',
-        level: 4,
+        level: 5,
       },
       {
         name: 'TypeScript',
-        level: 3.5,
+        level: 4.5,
       },
     ],
   },
@@ -147,16 +147,20 @@ export const skills: SkillGroup[] = [
     name: 'Backend development',
     skills: [
       {
-        name: 'Currently learning',
-        level: 0,
+        name: 'MangoDB',
+        level: 4.5,
       },
       {
-        name: '...',
-        level: 0,
+        name: 'PostgreSQL',
+        level: 4.5,
       },
       {
-        name: '...',
-        level: 0,
+        name: 'NodeJS',
+        level: 3.6,
+      },
+      {
+        name: 'ExpressJS',
+        level: 3.2,
       },
     ],
   },
@@ -241,7 +245,7 @@ export const testimonial: TestimonialSection = {
   testimonials: [
     {
       name: 'Fares Bessrour ' + '\u00B7' + ' Senior Developer',
-      text: 'If you are looking for a hard working with an unmatched analytical mindset software developer, this is your guy. There is no task too hard for Mohamed Ali, he will not rest until he understands and finds solutions to get any project going. Very underrated by Professionals in the Development space but the Communication and social skills of Mohamed Ali makes it great working with him, these skills are a must for any team centered projects.',
+      text: 'If you are looking for a hard working man with an unmatched analytical mindset software developer, this is your guy. There is no task too hard for Mohamed Ali, he will not rest until he understands and finds solutions to get any project going. Very underrated by Professionals in the Development space but the Communication and social skills of Mohamed Ali makes it great working with him, these skills are a must for any team centered projects.',
       image: 'https://i.postimg.cc/QxfhhrmN/faresbg.jpg',
     },
   ],
