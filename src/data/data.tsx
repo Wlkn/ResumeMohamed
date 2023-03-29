@@ -14,6 +14,7 @@ import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import calculator from '../images/portfolio/calculator.jpg';
 import counterapp from '../images/portfolio/counterapp.jpg';
 import quiz from '../images/portfolio/quizfixed.png';
+import recipeapp from '../images/portfolio/recipeapp.png';
 // import personalwebsite from '../images/portfolio/personalwebsite.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonialWall.jpg';
@@ -65,7 +66,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I am  a Montréal based <strong className="text-stone-100">Full Stack </strong>Developer.
+        I am a Montréal based <strong className="text-stone-100">Full Stack </strong>Developer.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         As a <strong className="text-stone-100">full stack developer</strong> I am eager to learn and grow in my career.
@@ -141,6 +142,10 @@ export const skills: SkillGroup[] = [
         name: 'TypeScript',
         level: 4.5,
       },
+      {
+        name: 'Java',
+        level: 0,
+      },
     ],
   },
   {
@@ -148,19 +153,19 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'MangoDB',
-        level: 4.5,
+        level: 6,
       },
       {
         name: 'PostgreSQL',
-        level: 4.5,
+        level: 6,
       },
       {
         name: 'NodeJS',
-        level: 3.6,
+        level: 5,
       },
       {
         name: 'ExpressJS',
-        level: 3.2,
+        level: 4,
       },
     ],
   },
@@ -191,12 +196,12 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://wlkn.github.io/Javascript-CounterApp',
     image: counterapp,
   },
-  // {
-  //   title: 'Personal Website',
-  //   description: `This website was made with React. I'll use this as a blog and a portfolio in the future.`,
-  //   url: 'https://wlkn.vercel.app',
-  //   image: personalwebsite,
-  // },
+  {
+    title: 'KitchenKaleidoscope',
+    description: `KitchenKaleidoscope is an online recipe book app that lets users save and manage their favorite recipes. Users can create, view, update, and delete their recipes and search for others' recipes. The app also includes ingredient and unit management features and is fully responsive for use on any device.`,
+    url: 'https://kitchenkaleidoscopewebapp.onrender.com/',
+    image: recipeapp,
+  },
 ];
 
 /**
