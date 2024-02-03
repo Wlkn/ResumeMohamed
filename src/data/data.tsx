@@ -95,13 +95,13 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Hi there! My name is Mohamed Ali Bachar and I am an 18-year-old full stack developer based in Montréal. While I may not have a strong foundation in all areas of development yet, I am a fast learner and am eager to continue learning and growing as a developer. I am particularly interested in expanding my skills in new technologies and am always on the lookout for opportunities to learn and improve. Thank you for visiting my site. If you have any questions or would like to discuss my experience and goals as a developer, please don't hesitate to reach out.`,
+  description: `Hi there! My name is Mohamed Ali Bachar and I am an 19-year-old full stack developer based in Montréal. While I may not have a strong foundation in all areas of development yet, I am a fast learner and am eager to continue learning and growing as a developer. Thank you for visiting my site. If you have any questions or would like to discuss my experience and goals as a developer, please don't hesitate to reach out.`,
   aboutItems: [
     {label: 'Location', text: 'Montréal, QC', Icon: MapIcon},
-    {label: 'Age', text: '18', Icon: CalendarIcon},
+    {label: 'Age', text: '19', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Canadian / Moroccan', Icon: FlagIcon},
     {label: 'Interests', text: 'Programming, Gym, Cars', Icon: SparklesIcon},
-    {label: 'Study', text: 'Freelancer', Icon: AcademicCapIcon},
+    {label: 'Study', text: 'Attestation of College Studies ', Icon: AcademicCapIcon},
     {label: 'Employment', text: '-', Icon: OfficeBuildingIcon},
   ],
 };
@@ -111,40 +111,23 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
-    skills: [
-      {
-        name: 'French',
-        level: 10,
-      },
-      {
-        name: 'English',
-        level: 9.5,
-      },
-      {
-        name: 'Arabic',
-        level: 4.5,
-      },
-    ],
-  },
-  {
     name: 'Frontend development',
     skills: [
       {
         name: 'JavaScript',
-        level: 7,
+        level: 7.5,
       },
       {
         name: 'React',
-        level: 5,
+        level: 6,
       },
       {
         name: 'TypeScript',
         level: 4.5,
       },
       {
-        name: 'Java',
-        level: 0,
+        name: 'PHP',
+        level: 4,
       },
     ],
   },
@@ -153,19 +136,44 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'MangoDB',
-        level: 6,
+        level: 7,
       },
       {
         name: 'PostgreSQL',
-        level: 6,
+        level: 7,
       },
       {
         name: 'NodeJS',
-        level: 5,
+        level: 6,
       },
       {
         name: 'ExpressJS',
-        level: 4,
+        level: 5,
+      },
+      {
+        name: 'Java',
+        level: 2,
+      },
+      {
+        name: 'C#',
+        level: 2,
+      },
+    ],
+  },
+  {
+    name: 'Spoken languages',
+    skills: [
+      {
+        name: 'French',
+        level: 10,
+      },
+      {
+        name: 'English',
+        level: 10,
+      },
+      {
+        name: 'Arabic',
+        level: 4.5,
       },
     ],
   },
@@ -209,10 +217,10 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'November 2022',
-    location: 'OpenClassrooms',
-    title: 'Started learning JavaScript',
-    content: <p>Dropped out of college to pursure my passion in programming.</p>,
+    date: 'August 2023 to May 2024',
+    location: 'Ahuntsic College',
+    title: 'Attestation of College Studies (ACS) in Development of Transactional Websites',
+    content: <p>Currently studying to get an ACS in Development of Transactional Websites.</p>,
   },
   {
     date: 'August 2021 to November 2022',
@@ -224,7 +232,7 @@ export const education: TimelineItem[] = [
     date: 'May 2021',
     location: 'Curé Antoine Labelle',
     title: 'Secondary School (High School)',
-    content: <p>Standard High school.</p>,
+    content: <p>Completed with a foundational education that supports my ongoing technical studies.</p>,
   },
 ];
 
@@ -262,7 +270,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here are the best ways you can reach out to me, the fastest way to access me is through emails.',
+  description: 'Here are the ways you can reach out to me, the fastest way to access me is through emails.',
   items: [
     {
       type: ContactType.Email,
